@@ -1,0 +1,3 @@
+LIB_DIR=/usr/local/lib
+test:
+	LD_LIBRARY_PATH=$(LIB_DIR) go test -v ./pkg/...
